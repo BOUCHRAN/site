@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+    list-style: none;
+   
+}
+html{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.nav1 {
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(35deg ,rgba(0, 0, 0, .1),rgba(0, 0, 0, .1));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 0 100px;
+    
+    position: absolute;
+}
+.nav1 .logo {
+    width: 80px;
+}
+.nav1 .logo img {
+    border-radius: 50%;
+}
+.humburger {
+    display: none;
+}
+.nav2 ul{
+    display: flex;
+}
+.nav2 ul li a {
+    display: flex;
+    color: black;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.5S;
+    margin: 0 10px;
+}
+
+.compte{
+    display: flex;
+    color: black;
+    font-size: 15px;
+    padding: 10px 25px;
+    border:solid black;
+    transition: 0.5S;
+    margin: 0 10px;
+}
+.nav2 ul li a:hover {
+    color: black;
+    background: white;
+}
+.compte a:hover{
+    color: white;
+    background: black;
+}
+
+.content{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url(WhatsApp\ Image\ 2023-12-12\ at\ 15.09.25_0889849a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content_box{
+    margin-left: 10%;
+}
+.content_box h2{
+    font-weight: 800;
+    font-size: 56px;
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content_box label{
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content_box label span{
+    color:brown;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 40;
+}
+.content_box a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 25px;
+    background:#b7b6b6;
+    transition: all;
+    color: black;
+}
+.content_box a:hover{
+    box-shadow: -4px -4px 10px white 4px 4px 10px white;
+    
+}
+ 
+
+
+
+
+.catalogue{
+    background:rgba(168, 167, 161, 0.025);
+    margin: 80px 0;
+}
+.catalogue_title{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.catalogue_title h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:brown;
+}
+.catalogue .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.catalogue .box .femme {
+    margin: 30px 20px;
+}
+.catalogue .box .femme  img{
+    width: 600px;
+    border-radius: 5px;
+    height: 320px;
+}
+.catalogue .box .contenu{
+    position: absolute;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.catalogue .box .contenu h3{
+    color: brown; 
+}
+
+.catalogue .box .contenu a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 25px;
+    background:#b7b6b6;
+    transition: all .19s ease-in;
+    color: black;
+}
+.catalogue .box .contenu a:hover{
+    background: rgb(red, green, blue);
+}
+.catalogue .box .contenu.b2{
+    margin-left: 370px;
+    text-align: right;
+    margin-top: 100px;
+}
+.catalogue .box .contenu .b2 h3{
+    color: brown;
+}
+
+
+
+
+ 
+
+
+
+
+  
+footer {
+    background: linear-gradient(35deg ,rgba(0, 0, 0, .1),rgba(0, 0, 0, .1));
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-item {
+    display: inline-block;
+    margin: 20px ;
+}
+
+.header-item .b  {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 25px;
+    background:#b7b6b6;
+    transition: all;
+    color: black;
+}
+
+.social-icons img {
+    width:auto; /* Ajustez la taille des icônes selon vos besoins */
+    margin: 0 5px;
+    height: 20px;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
